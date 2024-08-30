@@ -1,5 +1,6 @@
 .weather {
   place-self: center;
+  width: 60%;
   padding: 40px;
   border-radius: 10px;
   background-image: linear-gradient(45deg, #9cc0d7, #86acc9);
@@ -68,4 +69,15 @@
 .weather-data .col img {
   width: 26px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .weather {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .weather {
+    width: 90%;
+  }
 }
